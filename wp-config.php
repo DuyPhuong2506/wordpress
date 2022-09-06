@@ -29,7 +29,6 @@ define( 'DB_USER', 'oxxaxibtsprkwk' );
 /** Database password */
 define( 'DB_PASSWORD', 'b3485781562e0540d8c63fa0758c03f32bba4c070e4cc3024f2033b91ec0f6d6' );
 
-define('DB_PORT', '5432');
 /** Database hostname */
 define( 'DB_HOST', 'ec2-44-210-36-247.compute-1.amazonaws.com' );
 
