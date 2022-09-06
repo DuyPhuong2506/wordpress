@@ -20,14 +20,14 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'freedb_database_wp' );
+define( 'DB_NAME', 'freedb_wordpress_databaes' );
 
 
 /** Database username */
-define( 'DB_USER', 'freedb_root' );
+define( 'DB_USER', 'freedb_wp_root_db' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'd&h&!AeMY9zu$ZP' );
+define( 'DB_PASSWORD', '7KJ7NzFES@zqS*u' );
 
 /** Database hostname */
 define( 'DB_HOST', 'sql.freedb.tech' );
@@ -58,6 +58,8 @@ define( 'SECURE_AUTH_SALT', ';d8x:;(@sbZwHRlcDq9G;];aLQG9+*H1&Z>-dpD so7%w3a^q0%
 define( 'LOGGED_IN_SALT',   '2=>{QpLAwsD<OIyadr!-:|F->6T[xZPk7|E^qOg3|#_rc3[5)VB_{lDK|TYJ:0P2' );
 define( 'NONCE_SALT',       'j wpLo(D:9w6p=0_!S40vJxR=pEkt,pmikdFj W*+8M~8,_Z9/AsG>-G6%+0eKLO' );
 
+
+define('WP_ALLOW_REPAIR', true);
 /**#@-*/
 
 /**
@@ -95,5 +97,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-
-define('WP_ALLOW_REPAIR', true);
